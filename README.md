@@ -51,7 +51,7 @@ This repository contains everything needed to build, flash, and operate one.
 ## Quick start
 
 ```bash
-git clone https://github.com/lambert-igem/lancet-cartridge.git
+git clone https://github.com/vkalipat/lancet-cartridge.git
 cd lancet-cartridge
 ```
 
@@ -115,14 +115,14 @@ paper and the archived release. Machine-readable metadata is in
 > Kalipatnapu, V. S., Lambert iGEM 2025 Team, et al. (2026). An open-source
 > sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for
 > sequential RPA-Cas12a diagnostics at the point of care. *HardwareX*.
-> doi:10.0000/PLACEHOLDER. Repository: https://github.com/lambert-igem/lancet-cartridge.
+> doi:10.0000/PLACEHOLDER. Repository: https://github.com/vkalipat/lancet-cartridge.
 > Archive: https://doi.org/10.5281/zenodo.PLACEHOLDER.
 
 ## Contact
 
 - Corresponding author: V. S. Kalipatnapu (lambertigem621@gmail.com)
 - Team: Lambert iGEM 2025, Lambert High School, Suwanee, Georgia, USA
-- Issues and pull requests: https://github.com/lambert-igem/lancet-cartridge
+- Issues and pull requests: https://github.com/vkalipat/lancet-cartridge
 
 ## Acknowledgements
 

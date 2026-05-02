@@ -33,7 +33,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/lambert-igem/lancet-cartridge",
+      "identifier": "https://github.com/vkalipat/lancet-cartridge",
       "relation": "isSupplementTo",
       "scheme": "url",
       "resource_type": "software"

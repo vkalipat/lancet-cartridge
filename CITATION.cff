@@ -9,8 +9,8 @@ authors:
     affiliation: "Lambert High School Synthetic Biology Team, Suwanee, Georgia, USA"
   # Co-authors and PI advisors will be added prior to journal submission.
 type: software
-repository-code: "https://github.com/lambert-igem/lancet-cartridge"
-url: "https://github.com/lambert-igem/lancet-cartridge"
+repository-code: "https://github.com/vkalipat/lancet-cartridge"
+url: "https://github.com/vkalipat/lancet-cartridge"
 license:
   - CERN-OHL-W-2.0
   - MIT
