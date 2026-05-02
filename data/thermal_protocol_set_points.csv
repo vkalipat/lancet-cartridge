@@ -1,0 +1,6 @@
+phase_idx,phase_name,start_time_min,end_time_min,duration_min,set_point_c,description
+0,RPA_37C_70min,0,70,70,37.0,RPA isothermal amplification at 37 C
+1,LOWER_VALVE_46C_1min,70,71,1,46.0,Open lower-threshold (10:7) wax valve at 46 C; releases RPA amplicon into the Cas12a compartment
+2,CAS12A_37C_25min,71,96,25,37.0,Cas12a collateral cleavage at 37 C
+3,UPPER_VALVE_51C_1min,96,97,1,51.0,Open upper-threshold (10:8) wax valve at 51 C; releases reaction into the reporter compartment
+4,REPORTER_37C_30min,97,127,30,37.0,Final reporter (lateral-flow or fluorescence) incubation at 37 C

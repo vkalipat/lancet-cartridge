@@ -1,0 +1,9 @@
+PLACEHOLDER -- this filename is reserved for the binary Autodesk Fusion 360
+parametric source for the LANCET cartridge tube assembly. The binary file
+will be committed in the v0.1.0 release tagged for Zenodo archiving.
+
+The authoritative parametric description until then is in
+tube_assembly.f3d.notes.md (same directory). All dimensions, tolerances,
+and export procedures are documented there.
+
+License: CERN-OHL-W v2 (see ../LICENSE-HARDWARE).

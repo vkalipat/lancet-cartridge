@@ -1,0 +1,43 @@
+{
+  "title": "LANCET: An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics",
+  "description": "Hardware design files, Arduino firmware, and validation protocols for the Lambert iGEM 2025 LANCET cartridge: a 3D-printed three-compartment polycarbonate tube with two paraffin-mineral oil wax valves (10:7 mass ratio melting at 45 C; 10:8 melting at 50 C), driven by an Arduino Uno + N-MOSFET + DS18B20 thermal controller running a five-phase protocol for sequential RPA, Cas12a, and reporter incubations. Companion repository for the HardwareX paper.",
+  "creators": [
+    {
+      "name": "Kalipatnapu, Vedant S.",
+      "affiliation": "Lambert High School Synthetic Biology Team",
+      "orcid": ""
+    },
+    {
+      "name": "Lambert iGEM 2025 Team",
+      "affiliation": "Lambert High School Synthetic Biology Team"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CERN-OHL-W-2.0",
+  "keywords": [
+    "open hardware",
+    "paraffin wax valve",
+    "one-pot cartridge",
+    "RPA",
+    "CRISPR-Cas12a",
+    "point-of-care diagnostics",
+    "Lyme disease",
+    "Borrelia burgdorferi",
+    "3D printing",
+    "Arduino",
+    "iGEM"
+  ],
+  "communities": [
+    {"identifier": "igem"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lambert-igem/lancet-cartridge",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Hardware design files (CAD, schematics, layouts) are released under CERN-OHL-W v2. Firmware (Arduino sketches) is released under the MIT License. Documentation (Markdown files, BOM CSV, validation protocols) is released under CC BY 4.0. See LICENSE-HARDWARE, LICENSE-FIRMWARE, and LICENSE-DOCS in the repository root."
+}

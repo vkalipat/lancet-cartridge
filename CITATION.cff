@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this hardware, firmware, or documentation, please cite both the paper and the archived release."
+title: "LANCET: An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics"
+authors:
+  - family-names: "Kalipatnapu"
+    given-names: "Vedant S."
+    affiliation: "Lambert High School Synthetic Biology Team, Suwanee, Georgia, USA"
+  - name: "Lambert iGEM 2025 Team"
+    affiliation: "Lambert High School Synthetic Biology Team, Suwanee, Georgia, USA"
+  # Co-authors and PI advisors will be added prior to journal submission.
+type: software
+repository-code: "https://github.com/lambert-igem/lancet-cartridge"
+url: "https://github.com/lambert-igem/lancet-cartridge"
+license:
+  - CERN-OHL-W-2.0
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - open hardware
+  - paraffin wax valve
+  - one-pot cartridge
+  - RPA
+  - CRISPR-Cas12a
+  - point-of-care diagnostics
+  - Lyme disease
+  - Borrelia burgdorferi
+  - 3D printing
+  - Arduino
+version: "0.1.0"
+date-released: "2026-05-02"
+identifiers:
+  - description: "Concept DOI for all versions of this archive (Zenodo)."
+    type: doi
+    value: "10.5281/zenodo.PLACEHOLDER"
+preferred-citation:
+  type: article
+  title: "An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics at the point of care"
+  authors:
+    - family-names: "Kalipatnapu"
+      given-names: "Vedant S."
+    - name: "Lambert iGEM 2025 Team"
+  journal: "HardwareX"
+  year: 2026
+  doi: "10.0000/PLACEHOLDER"

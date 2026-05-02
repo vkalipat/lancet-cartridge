@@ -1,0 +1,33 @@
+Documentation License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The documentation in this repository (everything under `docs/`, the
+`README.md` files, and any `.md` files outside `firmware/`) is released under
+the Creative Commons Attribution 4.0 International license.
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+  - No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing anything
+    the license permits.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution string:
+
+    "LANCET cartridge documentation by V. S. Kalipatnapu, Lambert iGEM 2025
+     Team, and contributors, used under CC BY 4.0
+     (https://creativecommons.org/licenses/by/4.0/)."
+
+Note: This file documents the license that applies to the documentation. The
+hardware design files (CAD, schematics) are released separately under
+CERN-OHL-W v2 (see LICENSE-HARDWARE), and the firmware is released under the
+MIT License (see LICENSE-FIRMWARE).

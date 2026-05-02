@@ -1,0 +1,31 @@
+solid lancet_tube_cap_PLACEHOLDER
+# SPDX-License-Identifier: CERN-OHL-W-2.0
+# Copyright (c) 2026 Lambert iGEM 2025 Team and contributors
+#
+# THIS FILE IS A PLACEHOLDER. It does not contain printable mesh data.
+# The real STL will be exported from the Fusion 360 parametric source
+# and committed in the v0.1.0 release tagged for Zenodo archiving.
+#
+# Description of the intended part:
+#
+#   Part:     press-fit cartridge cap with reagent-loading port
+#   Material: clear polycarbonate filament
+#   Outer diameter:  ~12 mm (matches tube body)
+#   Height:          ~6 mm
+#   Loading port:    1.5 mm diameter through-hole, centered, to be
+#                    sealed with a removable adhesive sticker after
+#                    the patient sample is loaded
+#   Friction-fit collar: 0.1 mm undersized to mate with the top
+#                    compartment of `tube_body.stl`
+#   Optical access:  the cap is printed in clear polycarbonate so the
+#                    fluorescence reader can excite/emit through the
+#                    cap face (485 nm excitation, 535 nm emission)
+#
+# Slicing parameters: same as `tube_body.stl` (0.1 mm layer height,
+# 100 % infill, 260 C nozzle, 105 C bed). Anneal at 80 C for 30 min.
+#
+# To regenerate this file from the parametric source:
+#   1. Open `tube_assembly.f3d` (forthcoming) in Autodesk Fusion 360.
+#   2. Suppress the body component.
+#   3. Right-click the cap component and choose Save As Mesh -> STL.
+endsolid lancet_tube_cap_PLACEHOLDER

@@ -1,0 +1,11 @@
+PLACEHOLDER -- this filename is reserved for the KiCad PCB layout
+(pcbnew) source for the LANCET thermal controller. The PCB build is
+explicitly documented as optional in the paper (Section 4); the
+reference build is breadboard-only.
+
+The binary KiCad file will be committed in the v0.1.0 release tagged
+for Zenodo archiving. Layout intent (2 oz copper on the heater trace,
+0.1" screw terminal for the heating-pad leads, gate-source TVS for ESD)
+is described in schematic.md.
+
+License: CERN-OHL-W v2 (see ../LICENSE-HARDWARE).
