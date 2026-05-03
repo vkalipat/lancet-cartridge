@@ -1,6 +1,6 @@
 {
-  "title": "LANCET: An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics",
-  "description": "Hardware design files, Arduino firmware, and validation protocols for the Lambert iGEM 2025 LANCET cartridge: a 3D-printed three-compartment polycarbonate tube with two paraffin-mineral oil wax valves (10:7 mass ratio melting at 45 C; 10:8 melting at 50 C), driven by an Arduino Uno + N-MOSFET + DS18B20 thermal controller running a five-phase protocol for sequential RPA, Cas12a, and reporter incubations. Companion repository for the HardwareX paper.",
+  "title": "LANCET: An open-source programmable thermal-sequencing cartridge platform for sequential multi-step point-of-care biochemistry",
+  "description": "Hardware design files, Arduino firmware, and validation protocols for the Lambert iGEM 2025 LANCET cartridge: an open-source programmable thermal-sequencing cartridge platform that drives arbitrary multi-step biochemistry inside a single closed 3D-printed polycarbonate tube. Tunable paraffin-mineral oil wax valves at programmable melt thresholds release reagents in turn under a software-defined thermal protocol delivered by an Arduino Uno + N-MOSFET + DS18B20 controller, at a durable hardware cost of $48.58 USD. The substrate is in principle chemistry-agnostic and supports CRISPR-Cas12a / Cas13, LAMP, sample-preparation cascades, and other multi-step point-of-care chemistries; the demonstrated instantiation reported in the companion HardwareX paper is a dual-threshold valve set (10:7 mass ratio melting at 45 C; 10:8 melting at 50 C) and a five-phase Arduino protocol that runs an RPA -> Cas12a -> reporter workflow for early-window Lyme diagnosis. Companion repository for the HardwareX paper.",
   "creators": [
     {
       "name": "Kalipatnapu, Vedant S.",
@@ -17,11 +17,15 @@
   "license": "CERN-OHL-W-2.0",
   "keywords": [
     "open hardware",
+    "programmable platform",
+    "thermal sequencing",
+    "multi-step biochemistry",
     "paraffin wax valve",
     "one-pot cartridge",
-    "RPA",
-    "CRISPR-Cas12a",
     "point-of-care diagnostics",
+    "CRISPR-Cas12a",
+    "RPA",
+    "isothermal amplification",
     "Lyme disease",
     "Borrelia burgdorferi",
     "3D printing",
@@ -39,5 +43,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "Hardware design files (CAD, schematics, layouts) are released under CERN-OHL-W v2. Firmware (Arduino sketches) is released under the MIT License. Documentation (Markdown files, BOM CSV, validation protocols) is released under CC BY 4.0. See LICENSE-HARDWARE, LICENSE-FIRMWARE, and LICENSE-DOCS in the repository root."
+  "notes": "Hardware design files (CAD, schematics, layouts) are released under CERN-OHL-W v2. Firmware (Arduino sketches) is released under the MIT License. Documentation (Markdown files, BOM CSV, validation protocols) is released under CC BY 4.0. See LICENSE-HARDWARE, LICENSE-FIRMWARE, and LICENSE-DOCS in the repository root. The platform is in principle chemistry-agnostic; only the RPA-Cas12a Lyme application has been demonstrated in this release."
 }

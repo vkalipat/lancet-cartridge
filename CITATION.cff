@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this hardware, firmware, or documentation, please cite both the paper and the archived release."
-title: "LANCET: An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics"
+title: "LANCET: An open-source programmable thermal-sequencing cartridge platform for sequential multi-step point-of-care biochemistry"
+abstract: "Open-source programmable thermal-sequencing cartridge platform that drives arbitrary multi-step point-of-care biochemistry inside a single closed 3D-printed tube. Tunable paraffin-mineral oil wax valves at programmable melt thresholds release reagents in turn under a software-defined thermal protocol delivered by an Arduino-MOSFET controller, at a durable hardware cost of $48.58 USD. The substrate is in principle chemistry-agnostic and supports CRISPR-Cas12a / Cas13, LAMP, sample-preparation cascades, and other multi-step POC chemistries; the demonstrated instantiation reported in the companion HardwareX paper is a dual-threshold valve set (10:7 mass ratio melting at 45 C; 10:8 melting at 50 C) and a five-phase Arduino protocol that runs an RPA-Cas12a workflow for early-window Lyme diagnosis. Only one chemistry has been demonstrated to date."
 authors:
   - family-names: "Kalipatnapu"
     given-names: "Vedant S."
@@ -17,11 +18,15 @@ license:
   - CC-BY-4.0
 keywords:
   - open hardware
+  - programmable platform
+  - thermal sequencing
+  - multi-step biochemistry
   - paraffin wax valve
   - one-pot cartridge
-  - RPA
-  - CRISPR-Cas12a
   - point-of-care diagnostics
+  - CRISPR-Cas12a
+  - RPA
+  - isothermal amplification
   - Lyme disease
   - Borrelia burgdorferi
   - 3D printing
@@ -34,7 +39,7 @@ identifiers:
     value: "10.5281/zenodo.PLACEHOLDER"
 preferred-citation:
   type: article
-  title: "An open-source sub-$50 one-pot cartridge with dual-threshold paraffin-wax valves for sequential RPA-Cas12a diagnostics at the point of care"
+  title: "An Open-Source Thermal-Sequencing Cartridge Platform for Sequential Multi-Step Point-of-Care Biochemistry"
   authors:
     - family-names: "Kalipatnapu"
       given-names: "Vedant S."
