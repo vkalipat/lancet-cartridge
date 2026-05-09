@@ -42,7 +42,7 @@ date-released: "2026-05-02"
 identifiers:
   - description: "Concept DOI for all versions of this archive (Zenodo)."
     type: doi
-    value: "10.5281/zenodo.PLACEHOLDER"
+    value: "10.5281/zenodo.20101160"
 preferred-citation:
   type: article
   title: "An Open-Source Thermal-Sequencing Cartridge Platform for Sequential Multi-Step Point-of-Care Biochemistry"

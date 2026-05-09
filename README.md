@@ -152,11 +152,11 @@ If you use this hardware, firmware, or documentation, please cite both the
 paper and the archived release. Machine-readable metadata is in
 `CITATION.cff`:
 
-> Kalipatnapu, V. S., Lambert iGEM 2025 Team, et al. (2026). An open-source
+> Gulati, A., Kalipatnapu, V. S., & Karthik, A. (2026). An open-source
 > thermal-sequencing cartridge platform for sequential multi-step
-> point-of-care biochemistry. *HardwareX*. doi:10.0000/PLACEHOLDER.
+> point-of-care biochemistry. *HardwareX*. doi:10.0000/PLACEHOLDER (in prep).
 > Repository: https://github.com/vkalipat/lancet-cartridge.
-> Archive: https://doi.org/10.5281/zenodo.PLACEHOLDER.
+> Archive: https://doi.org/10.5281/zenodo.20101160 (concept DOI; latest version v0.1.1 = 10.5281/zenodo.20101161).
 
 ## Contact
 
